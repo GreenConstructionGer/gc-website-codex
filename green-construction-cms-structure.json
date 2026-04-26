@@ -1,0 +1,88 @@
+{
+  "brand": {
+    "name": "Green Construction GmbH",
+    "address": "Frankfurter Strasse 80-82, 65760 Eschborn, Deutschland",
+    "email": "office@green-construction.de",
+    "phone": "+49 (0) 6196 / 2048 314",
+    "fax": "+49 (0) 6196 / 2048 313",
+    "vatId": "DE320014902",
+    "commercialRegister": "HRB 112724",
+    "registerCourt": "Amtsgericht Frankfurt am Main",
+    "managingDirector": "Dipl.-Ing. Michael-Eugen Adam",
+    "authorizedOfficer": "Patrick-Justin Adam"
+  },
+  "languages": [
+    { "code": "de", "label": "Deutsch", "default": true },
+    { "code": "en", "label": "English" },
+    { "code": "fr", "label": "Francais" },
+    { "code": "es", "label": "Espanol" },
+    { "code": "pt", "label": "Portugues" },
+    { "code": "it", "label": "Italiano" },
+    { "code": "pl", "label": "Polski" },
+    { "code": "ro", "label": "Romana" }
+  ],
+  "navigation": [
+    { "labelKey": "nav.home", "slug": "/" },
+    { "labelKey": "nav.businessAreas", "slug": "#business-areas" },
+    { "labelKey": "nav.references", "slug": "/referenzen" },
+    { "labelKey": "nav.about", "slug": "/ueber-uns" },
+    { "labelKey": "nav.contact", "slug": "/kontakt" }
+  ],
+  "primaryCtas": [
+    "Projekt anfragen",
+    "Kontakt aufnehmen",
+    "Beratungstermin vereinbaren"
+  ],
+  "businessAreas": [
+    {
+      "id": "construction-refurbishment",
+      "title": "Hoch- & Tiefbau | Innenausbau & Sanierung",
+      "slug": "hoch-tiefbau-innenausbau-sanierung",
+      "audiences": ["Investoren", "Projektentwickler", "Gewerbekunden", "Hausverwaltungen", "private Bauherren"],
+      "iconSuggestions": ["Building2", "HardHat", "Ruler"],
+      "imageSuggestions": ["Rohbau", "Tiefbauarbeiten", "Innenausbau", "Sanierung im Bestand"]
+    },
+    {
+      "id": "general-contractor",
+      "title": "Generalunternehmer (GU) | Schluesselfertiger Bau",
+      "slug": "generalunternehmer-schluesselfertiger-bau",
+      "audiences": ["Bautraeger", "Investoren", "Unternehmen", "Projektgesellschaften", "private Auftraggeber"],
+      "iconSuggestions": ["KeyRound", "ClipboardCheck", "Layers"],
+      "imageSuggestions": ["schluesselfertiger Gewerbebau", "Bauleitung", "Gewerkeplanung", "Abnahme"]
+    },
+    {
+      "id": "sports-landscaping",
+      "title": "Sportplatzbau | Kunstrasen & GaLaBau",
+      "slug": "sportplatzbau-kunstrasen-galabau",
+      "audiences": ["Kommunen", "Vereine", "Schulen", "Traeger", "Betreiber", "Projektentwickler"],
+      "iconSuggestions": ["Goal", "Sprout", "Shovel"],
+      "imageSuggestions": ["Kunstrasenplatz", "Drainage", "Aussenanlage", "Sportplatzsanierung"]
+    },
+    {
+      "id": "recycling-disposal",
+      "title": "Recycling | Entsorgung & Sekundaerrohstoffe (Efb)",
+      "slug": "recycling-entsorgung-sekundaerrohstoffe",
+      "audiences": ["Bauunternehmen", "Rueckbauer", "Projektentwickler", "Gewerbe", "Kommunen"],
+      "iconSuggestions": ["Recycle", "Truck", "ShieldCheck"],
+      "imageSuggestions": ["Materialtrennung", "Containerlogistik", "Sekundaerrohstoffe", "Recyclinghof"]
+    }
+  ],
+  "pageTypes": {
+    "home": ["hero", "businessAreaTiles", "companyIntro", "trustBand", "sustainability", "referenceTeasers", "contactCta"],
+    "businessArea": ["hero", "audiences", "services", "typicalProjects", "process", "benefits", "references", "partnersCertifications", "contactBlock"],
+    "standard": ["hero", "contentSections", "contactCta"],
+    "legal": ["legalContent", "lastUpdated"]
+  },
+  "seoDefaults": {
+    "siteName": "Green Construction GmbH",
+    "ogType": "website",
+    "robots": "index,follow",
+    "defaultImage": "alternative_logo_PNG_06.png"
+  },
+  "legalPages": [
+    { "id": "imprint", "deSlug": "impressum", "basis": "§ 5 DDG, § 18 Abs. 2 MStV" },
+    { "id": "privacy", "deSlug": "datenschutz", "basis": "DSGVO, BDSG, TDDDG" },
+    { "id": "terms", "deSlug": "agb", "basis": "deutsches Vertragsrecht, Bau- und Dienstleistungsvertraege" },
+    { "id": "disclaimer", "deSlug": "disclaimer", "basis": "allgemeiner Haftungsausschluss" }
+  ]
+}
